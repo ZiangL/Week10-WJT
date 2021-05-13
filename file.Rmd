@@ -1,0 +1,23 @@
+---
+title: 'ETC5513: Assignment Solution'
+output:
+  pdf_document:
+    highlight: tango
+    number_sections: yes
+    toc: yes
+    toc_depth: 2
+  html_document:
+    df_print: paged
+    theme: cerulean
+    toc: yes
+    toc_depth: '2'
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=5in,height=13in]{figs/front.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{fontawesome}
+- \usepackage[most]{tcolorbox}
+- \usepackage{xcolor}
+- \usepackage{sectsty}
+- \sectionfont{\color{olive}}
+---
